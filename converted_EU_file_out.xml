@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<InvoiceRegisters>
+  <Invoices>
+    <Payable>
+      <InvoiceNumber/>
+      <InvoiceDate>2019-03-01</InvoiceDate>
+      <DueDate>2019-03-31</DueDate>
+      <TotalAmount>12978.81</TotalAmount>
+      <Notes/>
+      <Iban>NO6513425245230</Iban>
+      <Amount>2595.76</Amount>
+      <Currency>nok</Currency>
+      <Vendor>InfoNet Workshop</Vendor>
+      <VendorAddress/>
+      <Details>
+        <Detail>
+          <Amount/>
+          <AccountId/>
+          <Quantity>3</Quantity>
+          <Notes>HPI Battery 4C 40WHr 2.8AH LI LA098241 242341-800Factory SealedHS Code Origin CN</Notes>
+        </Detail>
+        <Detail>
+          <Amount/>
+          <AccountId/>
+          <Quantity>4</Quantity>
+          <Notes>HPI 11.6-inch HD WLED UWVA touchscreen display 9023422-001Factory SealedHS Code Origin CN Serial Numbers 72624323421</Notes>
+        </Detail>
+        <Detail>
+          <Amount/>
+          <AccountId/>
+          <Quantity>1</Quantity>
+          <Notes>Freight Factory Sealed HS Code</Notes>
+        </Detail>
+      </Details>
+    </Payable>
+  </Invoices>
+</InvoiceRegisters>

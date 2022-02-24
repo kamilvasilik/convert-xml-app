@@ -1,0 +1,261 @@
+{
+    "export": {
+        "results": {
+            "annotation": {
+                "@url": "https://elis.rossum.ai/api/v1/annotations/2451971",
+                "status": "exported",
+                "arrived_at": "2020-07-15T06:43:23.028579Z",
+                "exported_at": "2021-03-08T06:18:30.682878Z",
+                "document": {
+                    "@url": "https://elis.rossum.ai/api/v1/documents/2453838",
+                    "file_name": "EU Marketing Invoice (Norway).pdf",
+                    "file": "https://elis.rossum.ai/api/v1/documents/2453838/content"
+                },
+                "modifier": {
+                    "@url": "https://elis.rossum.ai/api/v1/users/13564",
+                    "username": "test_578459@elis.rossum.ai"
+                },
+                "schema": {
+                    "@url": "https://elis.rossum.ai/api/v1/schemas/176091"
+                },
+                "metadata": null,
+                "content": {
+                    "section": [
+                        {
+                            "@schema_id": "invoice_info_section",
+                            "datapoint": [
+                                {
+                                    "@rir_confidence": "0.9771588350454424",
+                                    "@schema_id": "invoice_id",
+                                    "@type": "string",
+                                    "#text": "143453775"
+                                },
+                                {
+                                    "@rir_confidence": "0.9633343080893669",
+                                    "@schema_id": "date_issue",
+                                    "@type": "date",
+                                    "#text": "2019-03-01"
+                                },
+                                {
+                                    "@rir_confidence": "0.9276531531670439",
+                                    "@schema_id": "date_due",
+                                    "@type": "date",
+                                    "#text": "2019-03-31"
+                                },
+                                {
+                                    "@rir_confidence": "0.8970364740042044",
+                                    "@schema_id": "iban",
+                                    "@type": "string",
+                                    "#text": "NO6513425245230"
+                                }
+                            ]
+                        },
+                        {
+                            "@schema_id": "amounts_section",
+                            "datapoint": [
+                                {
+                                    "@rir_confidence": "0.9252583542257525",
+                                    "@schema_id": "amount_total",
+                                    "@type": "number",
+                                    "#text": "12978.81"
+                                },
+                                {
+                                    "@rir_confidence": "0.960040642328732",
+                                    "@schema_id": "amount_total_tax",
+                                    "@type": "number",
+                                    "#text": "2595.76"
+                                },
+                                {
+                                    "@schema_id": "amount_total_base",
+                                    "@type": "number"
+                                },
+                                {
+                                    "@rir_confidence": "0.6738755702972412",
+                                    "@schema_id": "currency",
+                                    "@type": "enum",
+                                    "#text": "nok"
+                                }
+                            ],
+                            "multivalue": {
+                                "@schema_id": "vat_details"
+                            }
+                        },
+                        {
+                            "@schema_id": "vendor_section",
+                            "datapoint": [
+                                {
+                                    "@rir_confidence": "0.5393862589945768",
+                                    "@schema_id": "sender_name",
+                                    "@type": "string",
+                                    "#text": "InfoNet Workshop"
+                                },
+                                {
+                                    "@rir_confidence": "0.9061709945951922",
+                                    "@schema_id": "sender_address",
+                                    "@type": "string",
+                                    "#text": "2423 KONGSVINGER\nNorway"
+                                },
+                                {
+                                    "@schema_id": "sender_ic",
+                                    "@type": "string"
+                                },
+                                {
+                                    "@schema_id": "sender_dic",
+                                    "@type": "string"
+                                },
+                                {
+                                    "@schema_id": "recipient_name",
+                                    "@type": "string"
+                                },
+                                {
+                                    "@rir_confidence": "0.93205490037382",
+                                    "@schema_id": "recipient_address",
+                                    "@type": "string"
+                                },
+                                {
+                                    "@schema_id": "recipient_ic",
+                                    "@type": "string"
+                                },
+                                {
+                                    "@schema_id": "recipient_dic",
+                                    "@type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "@schema_id": "others_section"
+                        },
+                        {
+                            "@schema_id": "line_items_section",
+                            "multivalue": {
+                                "@schema_id": "line_items",
+                                "tuple": [
+                                    {
+                                        "@schema_id": "line_item",
+                                        "datapoint": [
+                                            {
+                                                "@schema_id": "item_description",
+                                                "@type": "string",
+                                                "#text": "HPi Battery 4C 40WHr 2 BAH LI LA098241"
+                                            },
+                                            {
+                                                "@schema_id": "item_quantity",
+                                                "@type": "number",
+                                                "#text": "3"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_base",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_rate",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount",
+                                                "@type": "number",
+                                                "#text": "645.53"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_total_base",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_total",
+                                                "@type": "number",
+                                                "#text": "1936.59"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@schema_id": "line_item",
+                                        "datapoint": [
+                                            {
+                                                "@schema_id": "item_description",
+                                                "@type": "string",
+                                                "#text": "HP 11.6-inch HD WLED UWVA touchscreen display ass"
+                                            },
+                                            {
+                                                "@schema_id": "item_quantity",
+                                                "@type": "number",
+                                                "#text": "4"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_base",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_rate",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount",
+                                                "@type": "number",
+                                                "#text": "2077.14"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_total_base",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_total",
+                                                "@type": "number",
+                                                "#text": "8308.56"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@schema_id": "line_item",
+                                        "datapoint": [
+                                            {
+                                                "@schema_id": "item_description",
+                                                "@type": "string",
+                                                "#text": "fre-ghti"
+                                            },
+                                            {
+                                                "@schema_id": "item_quantity",
+                                                "@type": "number",
+                                                "#text": "1"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_base",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_rate",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount",
+                                                "@type": "number",
+                                                "#text": "137.90"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_total_base",
+                                                "@type": "number"
+                                            },
+                                            {
+                                                "@schema_id": "item_amount_total",
+                                                "@type": "number",
+                                                "#text": "137.90"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "automated": "false",
+                "modified_at": "2021-03-08T06:18:20.940441Z",
+                "assigned_at": "2021-03-08T06:17:17.554572Z"
+            }
+        },
+        "pagination": {
+            "next": null,
+            "previous": null,
+            "total": "1",
+            "total_pages": "1"
+        }
+    }
+}
